@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #070707;
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            text-align: center;
+            color: #7dc2f0;
+        }
+        h1 {
+            background-color: #111111;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        h2 {
+            background-color: #7dc2f0;
+            color: white;
+            padding: 15px;
+            margin: 0;
+        }
+        h3 {
+            padding: 10px 20px;
+            background-color: #eee;
+            margin: 0;
+        }
+        p {
+            padding: 10px 20px;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #e64e20;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #e64e20;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #e0f7fa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(139, 188, 243, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PEMOGRAMAN BERORIENTASI OBJEK</h1>
+        <h2>Sejarah PBO</h2>
+        <p><strong>Pengembangan perangkat lunak berbasis objek (PBO) adalah pendekatan penting dalam rekayasa perangkat lunak yang memfokuskan pada penggunaan objek sebagai unit dasar untuk membangun aplikasi. Konsep ini telah berkembang pesat sejak awal 1960-an, dan prosesnya mencerminkan perubahan besar dalam cara kita mendesain dan mengelola perangkat lunak.</strong></p>
+        <h2>Awal Mula Dan Konsep Dasar</h2>
+        <p><strong>Konsep pemrograman berbasis objek pertama kali diperkenalkan pada tahun 1960-an dengan bahasa pemrograman Simula. Simula, yang dikembangkan oleh Ole-Johan Dahl dan Kristen Nygaard di Norwegia, memperkenalkan konsep objek dan kelas. Konsep ini kemudian menjadi dasar bagi pengembangan teknik-teknik baru dalam pemrograman. Simula memungkinkan pengembang untuk mendefinisikan objek dan kelas yang memiliki atribut dan metode, memfasilitasi pendekatan yang lebih modular dan terstruktur dalam desain perangkat lunak.</strong></p>
+        <h2>Perkembangan dan Evolusi</h2>
+        <p><strong>Pada tahun 1980-an, konsep PBO mulai mendapatkan perhatian lebih besar dengan munculnya bahasa pemrograman seperti Smalltalk. Smalltalk, dikembangkan oleh Alan Kay dan timnya di Xerox PARC, mempopulerkan banyak konsep PBO seperti pewarisan, polimorfisme, dan enkapsulasi. Smalltalk adalah salah satu bahasa pertama yang benar-benar memanifestasikan ide-ide PBO dalam bentuk bahasa pemrograman yang lengkap.</strong></p>
+        <p><strong>Seiring dengan waktu, berbagai bahasa pemrograman lainnya mulai mengadopsi prinsip-prinsip PBO. C++ adalah salah satu bahasa yang memainkan peran kunci dalam penyebaran PBO ke komunitas pengembang perangkat lunak yang lebih luas. Dikembangkan oleh Bjarne Stroustrup pada awal 1980-an sebagai perluasan dari bahasa C, C++ memperkenalkan fitur-fitur PBO seperti kelas dan objek ke dalam lingkungan pemrograman yang lebih populer dan banyak digunakan.</strong></p>
+        <h2>Pengaruh dan Penerimaan</h2>
+        <p><strong>Penerimaan PBO semakin meningkat pada 1990-an dengan munculnya bahasa pemrograman seperti Java dan Python. Java, yang dikembangkan oleh Sun Microsystems, menjadi sangat populer karena desainnya yang berbasis objek dan kemampuannya untuk mendukung platform-independence melalui mesin virtual Java (JVM). Java menawarkan lingkungan pengembangan yang konsisten dan dapat diandalkan untuk aplikasi desktop dan web, menjadikannya pilihan utama bagi banyak pengembang.</strong></p>
+        <p><strong>Python, bahasa yang dikembangkan oleh Guido van Rossum, juga mengadopsi prinsip PBO dengan pendekatan yang lebih fleksibel dan sintaksis yang lebih bersih, menjadikannya populer di kalangan pengembang yang mencari kemudahan penggunaan dan produktivitas tinggi. Python memungkinkan pengembang untuk menggunakan konsep-konsep PBO sambil tetap menjaga sintaks yang sederhana dan mudah dipahami.</strong></p>
+        <h2>PBO dan Praktik Modern</h2>
+        <p><strong>Saat ini, prinsip PBO telah menjadi bagian integral dari banyak bahasa pemrograman dan metodologi rekayasa perangkat lunak. Metode pengembangan perangkat lunak modern seperti pengembangan berorientasi layanan (SOA) dan arsitektur mikros layanan juga mengadopsi prinsip-prinsip PBO untuk membangun sistem yang lebih terkelola dan terdistribusi.</strong></p>
+        <p><strong>PBO memfasilitasi desain perangkat lunak yang lebih modular, memungkinkan pengembang untuk membuat kode yang lebih mudah dipelihara dan diperluas. Dengan menggunakan objek yang berfungsi sebagai unit dasar, pengembang dapat menciptakan solusi perangkat lunak yang lebih fleksibel dan responsif terhadap perubahan kebutuhan.</strong></p>
+        <h2>Kesimpulan</h2>
+        <p><strong>Sejarah pengembangan perangkat lunak berbasis objek menunjukkan evolusi dari ide dasar menjadi praktik yang mapan dalam rekayasa perangkat lunak. Dari pengenalan awal konsep di Simula, melalui peran penting bahasa seperti Smalltalk, C++, Java, dan Python, hingga penerapan modern, PBO telah membentuk cara kita mendesain, membangun, dan mengelola perangkat lunak. Prinsip-prinsip PBO tidak hanya mempengaruhi bahasa pemrograman tetapi juga metodologi dan praktik pengembangan perangkat lunak secara keseluruhan, menawarkan pendekatan yang lebih terstruktur dan modular untuk menciptakan solusi perangkat lunak yang kompleks.</strong></p>
+        <h1>Perbandingan Pemrograman</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Pemrograman Prosedural</th>
+                    <th>Pemrograman Berorientasi Objek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Struktur</td>
+                    <td>Berbasis prosedur/fungsi</td>
+                    <td>Berbasis objek dan kelas</td>
+                </tr>
+                <tr>
+                    <td>Pendekatan</td>
+                    <td>Top-down</td>
+                    <td>Bottom-up</td>
+                </tr>
+                <tr>
+                    <td>Kelebihan</td>
+                    <td>Mudah dipahami dan diimplementasikan untuk proyek kecil</td>
+                    <td>Lebih modular, mudah diperluas, dan dipelihara</td>
+                </tr>
+                <tr>
+                    <td>Contoh Bahasa</td>
+                    <td>C, Pascal</td>
+                    <td>Java, C++, Python</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
