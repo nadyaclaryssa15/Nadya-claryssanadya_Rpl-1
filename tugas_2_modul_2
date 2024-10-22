@@ -1,0 +1,60 @@
+# Mendefinisikan kelas Kalkulator
+class Kalkulator:
+   def_init_(self,angka1,angka2):
+    self.angka1=angka1
+    self.angka2=angka2
+#inisialisasi angka
+
+  # Metode untuk menambahkan dua angka
+  def tambah(self, x, y):
+      return x + y
+
+  # Metode untuk mengurangkan dua angka
+  def kurang(self, x, y):
+      return x - y
+
+  # Metode untuk mengalikan dua angka
+  def kali(self, x, y):
+      return x * y
+
+  # Metode untuk membagi dua angka, dengan pengecekan apakah y nol atau bukan
+  def bagi(self, x, y):
+      if y != 0:
+          return x / y
+      else:
+          return "Tidak bisa membagi dengan nol"
+
+# Membuat objek dari kelas Kalkulator
+kalkulator = Kalkulator()
+
+# Menampilkan pilihan operasi kepada pengguna
+print("operasi:")
+print("1. Tambah")
+print("2. Kurang")
+print("3. Kali")
+print("4. Bagi")
+
+# Meminta input dari pengguna untuk memilih operasi
+pilihan = input("Masukkan pilihan(1/2/3/4): ")
+
+# Meminta input dari pengguna untuk memasukkan angka pertama dan kedua
+bilangan1 = float(input("Masukkan bilangan pertama: "))
+bilangan2 = float(input("Masukkan bilangan kedua: "))
+
+# Mengecek pilihan operasi dan menjalankan metode yang sesuai
+if pilihan == '1':  # Jika pengguna memilih operasi Tambah
+  # Catatan: Seharusnya 'bilangan1' digunakan sebagai argumen pertama, bukan bilanagan 1
+  print(f"Hasil: {bilangan1} + {bilanagan2} = {kalkulator.tambah(bilangan1, bilangan2)}")
+
+elif pilihan == '2':  # Jika pengguna memilih operasi Kurang
+  print(f"Hasil: {bilangan1} - {bilangan2} = {kalkulator.kurang(bilangan1, bilangan2)}")
+
+elif pilihan == '3':  # Jika pengguna memilih operasi Kali
+  print(f"Hasil: {bilangan1} * {bilangan2} = {kalkulator.kali(bilangan1, bilangan2)}")
+
+elif pilihan == '4':  # Jika pengguna memilih operasi Bagi
+  print(f"Hasil: {bilangan1} / {bilangan2} = {kalkulator.bagi(bilangan1, bilangan2)}")
+
+else:
+  # Jika pengguna memilih opsi yang tidak valid
+  print("Pilihan tidak valid")
